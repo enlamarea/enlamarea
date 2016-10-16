@@ -5,7 +5,6 @@ tmp
 site
 
 # ignorar las tapas convertidas
-assets/covers/*.tif
 assets/covers/*.png
 assets/covers/*.pdf
 .idea
