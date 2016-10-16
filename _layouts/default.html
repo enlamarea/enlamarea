@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es" prefix="og: http://ogp.me">
+  <head>
+  <meta charset="utf-8" />
+    <title>{{ page.title }}</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <meta property="og:title" content="{{ page.title }}"/>
+    <meta property="og:url" content="http://enlamarea.net{{ page.url }}"/>
+    <meta property="og:locale" content="es_AR"/>
+    <meta property="og:site_name" content="Sueños en la Marea"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:article:published_time" content="{{ page.date }}"/>
+    <meta property="og:article:author" content="{{ page.author }}"/>
+    {% if page.cover %}
+    <meta property="og:image" content="http://enlamarea.net/{{ page.cover }}"/>
+    {% else %}
+    <meta property="og:image" content="http://enlamarea.net/assets/en_la_marea_logo.png"/>
+    {% endif %}
+
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+
+    <link type='text/css'
+          rel="stylesheet"
+          href="assets/css/bootstrap.min.css" />
+
+    <link type='text/css'
+          rel="stylesheet"
+          href="assets/fonts/stylesheet.css" />
+
+    <link type='text/css'
+          rel="stylesheet"
+          href="assets/css/custom.css" />
+
+    <link rel="alternate"
+          type="application/atom+xml"
+          title="En la Marea"
+          href="atom.xml" />
+	</head>
+  <body>
+    <div class="container">
+      {{ content }}
+    </div>
+  </body>
+</html>

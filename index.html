@@ -1,0 +1,55 @@
+---
+layout: default
+title: En la Marea
+---
+
+<header class="utopia">
+
+  <div class="page-header">
+    <div class="media">
+      <div class="media-body">
+        <h1 class="media-heading">En la marea</h1>
+      </div>
+      <a class="pull-right" href="/">
+        <img src="assets/images/tides64x.png"/>
+      </a>
+    </div>
+  </div>
+</header>
+
+<section id="textos">
+
+  <h2>Textos publicados</h2>
+
+  <ul class="media-list">
+{% for post in site.posts %}
+  <li class="media">
+    <h4 class="inline">
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <small class="author">{{post.author}}</small>
+    </h4>
+
+    <ul class="list-inline format-list inline">
+      <li> <span class="glyphicon glyphicon-cloud-download" title="Descargar"></span> </li>
+    {% for format in site.pandoc.outputs limit:2 %}
+    {% capture extension %}{{ format | first }}{% endcapture %}
+      <li><a href=".{{ post.url | remove:'.html' }}.{{ extension }}">{{ extension }}</a></li>
+    {% endfor %}
+      <li><a href=".{{ post.url }}#formats">otros...</a></li>
+    </ul>
+
+  </dl>
+{% endfor %}
+
+</section>
+
+<footer>
+  <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+      <img alt="Licencia Creative Commons" style="border-width:0" src="assets/images/by-nc-sa.png" /></a><br />Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.
+</footer>
+
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+  $('carrousel').carousel();
+</script>
