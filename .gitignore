@@ -3,6 +3,10 @@ vendor/*
 .bundle
 tmp
 site
+Gemfile
+Gemfile.lock
+bin
+Makefile
 
 # ignorar las tapas convertidas
 assets/covers/*.png
