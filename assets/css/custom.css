@@ -48,3 +48,7 @@ footer {
   text-align: center;
   width: 50%;
 }
+
+a:link, a:visited {
+  color: #58b7b8;
+}
