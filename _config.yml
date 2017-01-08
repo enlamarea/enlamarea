@@ -1,5 +1,14 @@
+# Site's metadata
+logo: assets/en_la_marea_logo.png
+title: En la Marea
+tagline:
+author: Camila Pérez Schunk
+email: cami@enlamarea.net
+lang: es
+
 markdown: pandoc
 pandoc:
+
     skip: false
     bundle_permalink: ':slug.:output_ext'
     papersize: 'a5paper'
@@ -10,28 +19,24 @@ pandoc:
     flags: '--smart -V lang=es
             --section-divs --email-obfuscation=references'
     outputs:
-        pdf: '-V fontsize=8pt,twoside
-                -V documentclass=book
-                -V geometry=hcentering
-                -V geometry=bindingoffset=5mm
-                --latex-engine=xelatex
-                --include-in-header=_layouts/header.tex
-                --include-before-body=_layouts/license.tex'
-        epub: '--epub-chapter-level=2'
-        mediawiki:
-        rst:
-        latex: '-V fontsize=8pt,twoside
-                  -V documentclass=book
-                  -V geometry=hcentering
-                  -V geometry=bindingoffset=1cm
-                  --latex-engine=xelatex
-                  --table-of-contents
-                  --include-in-header=_layouts/header.tex
-                  --include-before-body=_layouts/license.tex'
+        pdf: '-V fontsize=10pt,twoside
+              -V documentclass=book
+              -V geometry=hcentering
+              -V geometry=bindingoffset=5mm
+              -V links-as-notes=true
+              -V subparagraph
+              --latex-engine=xelatex
+              --include-in-header=_layouts/header.tex
+              --include-before-body=_layouts/license.tex'
+        epub: '-V lang=es --epub-chapter-level=2'
 
 destination: ./site/enlamarea.net
-layouts_dir:  ./_layouts
-plugins_dir:  ./_plugins
+
+jekyll-archives:
+  enabled:
+    - categories
+  permalinks:
+    category: :name.html
 
 exclude: [ tmp ]
 
@@ -41,3 +46,4 @@ lsi: false
 
 torrent:
   file: enlamarea.torrent
+

@@ -1,30 +1,36 @@
-\usepackage{quotchap} % changes style of chapter headings
-\usepackage{setspace}
-\usepackage{fancyhdr}
+% This is the LaTeX header, use it to include changes to the default
+% Pandoc template.
 
+% Use \copyleft to inject a copyleft symbol (inverted copyright symbol)
 \newcommand{\copyleft}{\reflectbox{©}}
 
-\definecolor{grey}{cmyk}{0,0,0,0.6}
+% Some useful packages
+\usepackage{setspace}
+\usepackage{microtype}
 
-\renewcommand{\chapnumfont}{
-    \fontsize{44}{46}
-    \selectfont
-    \color{grey}
-}
+%\definecolor{grey}{cmyk}{0,0,0,0.6}
 
+%\renewcommand{\chapnumfont}{
+%    \fontsize{44}{46}
+%    \selectfont
+%    \color{grey}
+%}
+
+
+% Fancy headers
+\usepackage{fancyhdr}
 \pagestyle{fancy}
-\setlength{\headheight}{20pt}
+\setlength{\headheight}{15.2pt}
 \fancyhead[]{}
 \fancyhead[LE]{\footnotesize{\leftmark}}
-\fancyhead[RE]{}
-
+\fancyhead[RO]{}
 \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
 \renewcommand{\sectionmark}[1]{\markright{#1}{}}
 
-% Por alguna razón pandoc lo pone en 0
+% Indent paragraphs
 \setlength{\parindent}{15pt}
 
-% Cortar por cualquier lado, lo encontré en texexchange
+% Make URL break at any point, making long URLs respect the text box.
 \expandafter\def\expandafter\UrlBreaks\expandafter{\UrlBreaks%  save the current one
 \do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j%
 \do\k\do\l\do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t%
@@ -33,13 +39,30 @@
 \do\O\do\P\do\Q\do\R\do\S\do\T\do\U\do\V\do\W\do\X%
 \do\Y\do\Z}
 
-% No mostrar los copetes en las imágenes
+% Hide image captions
 \usepackage[labelformat=empty]{caption}
 
-% Convertir los nombres de los autores a mayusculas y alineado a la
-% derecha
-\newcommand{\tmpsubsubsection}[1]{}
-\let\tmpsubsubsection=\subsubsection
-\renewcommand{\subsubsection}[1]{\tmpsubsubsection{\hfill\MakeUppercase{#1}}}
 
-\raggedbottom
+% This is a hack to make authors appear on the table of contents and
+% also as subheadings on chapter titles.
+%
+% Make article titles in this format:
+%
+% # Post title -- Author
+%
+% https://stackoverflow.com/a/1507530
+\usepackage{substr}
+\usepackage[explicit]{titlesec}
+\titleformat{\chapter}[hang]{}{}{0cm}{%
+  \Huge \BeforeSubString{ --- }{#1}\\
+  {\Large \itshape ---\BehindSubString{ --- }{#1}---}%
+}
+
+% Another hack, prevent pandoc from setting the bibliography section
+% title as the previous chapter title.
+%
+% https://tex.stackexchange.com/a/233271
+% https://github.com/jgm/pandoc/issues/1632
+\titleformat{name=\chapter,numberless}[hang]{}{}{0cm}{%
+  \Huge #1\markboth{#1}{#1}%
+}
