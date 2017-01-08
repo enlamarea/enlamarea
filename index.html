@@ -7,24 +7,33 @@ title: En la Marea
 
   <h2>Textos publicados</h2>
 
-  <ul class="media-list">
 {% for post in site.posts %}
-  <li class="media">
-    <h4 class="inline">
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <small class="author">{{post.author}}</small>
-    </h4>
+  <dl class="media">
+    <dt class="inline title"><a href="{{ post.url }}">{{ post.title }}</a></dt>
+    <dd class="inline"><small class="author">{{ post.author }}</small></dd>
 
-    <ul class="list-inline format-list inline">
-      <li> <span class="glyphicon glyphicon-cloud-download" title="Descargar"></span> </li>
-    {% for format in site.pandoc.outputs limit:2 %}
-    {% capture extension %}{{ format | first }}{% endcapture %}
-      <li><a href=".{{ post.url | remove:'.html' }}.{{ extension }}">{{ extension }}</a></li>
+    <dd class="inline"> <span class="glyphicon glyphicon-cloud-download" title="Descargar"></span> </dd>
+
+    {% for format in site.pandoc.outputs %}
+      {% capture extension %}{{ format | first }}{% endcapture %}
+      <dd class="inline">
+        <a href="{{ post.url | remove:'.html' }}.{{ extension }}">{{ extension }}</a>
+      </dd>
     {% endfor %}
-      <li><a href=".{{ post.url }}#formats">otros...</a></li>
-    </ul>
-  </li>
+  </dl>
 {% endfor %}
-  </ul>
 
+
+{% if site.archives %}
+  <ul>
+    {% for archive in site.archives %}
+      <li>
+        <a href="{{ archive.url }}">
+          {{ archive.title }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
 </section>
+

@@ -11,11 +11,29 @@
     text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, dt, dd small {
   font-family: "League Gothic", sans-serif;
 }
 
 h4 { font-size:22px; }
+
+h3.published-date {
+  color: #999;
+}
+
+dd.title a:link, dd.title a:visited,
+dt.title a:link, dt.title a:visited {
+  font-size: 22px;
+}
+
+dd, dt { font-weight: normal }
+
+dt small, dd small {
+  font-weight: normal;
+  font-size: 100%;
+  line-height: 1;
+  color: #999;
+}
 
 .inline { display:inline-block; }
 

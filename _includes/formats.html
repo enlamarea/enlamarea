@@ -1,16 +1,12 @@
-<nav id="formats">
-  <ul>
+<nav id="formats" class="pull-right">
+  <span class="glyphicon glyphicon-cloud-download"></span> Otros formatos
+
+  <ul class="list-inline">
     {% for format in site.pandoc.outputs %}
       {% capture extension %}{{ format | first }}{% endcapture %}
       <li><a href="{{ page.url | remove:'.html' }}.{{ extension }}">{{ extension }}</a></li>
     {% endfor %}
 
-    {% if site.pandoc.imposition %}
-      <li><a href="{{ page.url | remove:'.html' }}-imposed.pdf">imposition</a></li>
-    {% endif %}
-
-    {% if site.pandoc.binder %}
-      <li><a href="{{ page.url | remove:'.html' }}-binder.pdf">binder</a></li>
-    {% endif %}
+      <li><a href="assets/covers{{ page.url | remove:'.html' }}.tif">tapas</a></li>
   </ul>
 </nav>
