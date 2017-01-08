@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:fh="http://purl.org/syndication/history/1.0"
+  xmlns:opds="http://opds-spec.org/2010/catalog">
+  <author>
+    <name>Camila Pérez Schunk</name>
+  </author>
+  <id></id>
+  <link href="/catalog.opds"
+    rel="self"
+    type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+  <title>En la Marea</title>
+  <subtitle></subtitle>
+  <updated>2017-01-07T23:31:39-03:00</updated>
+  <dc:date>2017-01-07T23:31:39-03:00</dc:date>
+  <dcterms:date>2017-01-07T23:31:39-03:00</dcterms:date>
+
+  
+  <entry>
+    <id>//visitantes.html</id>
+    <link rel="http://opds-spec.org/acquisition"
+          type="application/epub+zip"
+          href="//visitantes.epub"/>
+    
+    <link rel="http://opds-spec.org/image"
+          type="image/png"
+          href="assets/covers/single_visitantes.png" />
+    <link rel="http://opds-spec.org/thumbnail"
+          type="image/png"
+          href="assets/covers/single_visitantes.png" />
+    
+    
+
+    <author>
+      <name>Camila Pérez Schunk</name>
+    </author>
+    <dc:language>es</dc:language>
+
+    <title>Visitantes</title>
+    <updated>2017-01-07T00:00:00-03:00</updated>
+    <dc:date>2017-01-07T00:00:00-03:00</dc:date>
+    <dcterms:date>2017-01-07T00:00:00-03:00</dcterms:date>
+    <dc:issued>2017-01-07</dc:issued>
+  </entry>
+  
+  <entry>
+    <id>//alli_donde_muere_el_sol.html</id>
+    <link rel="http://opds-spec.org/acquisition"
+          type="application/epub+zip"
+          href="//alli_donde_muere_el_sol.epub"/>
+    
+    <link rel="http://opds-spec.org/image"
+          type="image/png"
+          href="assets/covers/alli_donde_muere_el_sol.png" />
+    <link rel="http://opds-spec.org/thumbnail"
+          type="image/png"
+          href="assets/covers/alli_donde_muere_el_sol.png" />
+    
+    
+
+    <author>
+      <name>Camila Pérez Schunk</name>
+    </author>
+    <dc:language>es</dc:language>
+
+    <title>Allí donde muere el sol</title>
+    <updated>2016-12-03T00:00:00-03:00</updated>
+    <dc:date>2016-12-03T00:00:00-03:00</dc:date>
+    <dcterms:date>2016-12-03T00:00:00-03:00</dcterms:date>
+    <dc:issued>2016-12-03</dc:issued>
+  </entry>
+  
+  <entry>
+    <id>//en_la_oscuridad_del_faro.html</id>
+    <link rel="http://opds-spec.org/acquisition"
+          type="application/epub+zip"
+          href="//en_la_oscuridad_del_faro.epub"/>
+    
+    <link rel="http://opds-spec.org/image"
+          type="image/png"
+          href="assets/covers/single_en_la_oscuridad_del_faro.png" />
+    <link rel="http://opds-spec.org/thumbnail"
+          type="image/png"
+          href="assets/covers/single_en_la_oscuridad_del_faro.png" />
+    
+    
+
+    <author>
+      <name>Camila Pérez Schunk</name>
+    </author>
+    <dc:language>es</dc:language>
+
+    <title>En la oscuridad del faro</title>
+    <updated>2016-09-30T00:00:00-03:00</updated>
+    <dc:date>2016-09-30T00:00:00-03:00</dc:date>
+    <dcterms:date>2016-09-30T00:00:00-03:00</dcterms:date>
+    <dc:issued>2016-09-30</dc:issued>
+  </entry>
+  
+  <entry>
+    <id>//ciruelas.html</id>
+    <link rel="http://opds-spec.org/acquisition"
+          type="application/epub+zip"
+          href="//ciruelas.epub"/>
+    
+    <link rel="http://opds-spec.org/image"
+          type="image/png"
+          href="assets/covers/single_ciruelas.png" />
+    <link rel="http://opds-spec.org/thumbnail"
+          type="image/png"
+          href="assets/covers/single_ciruelas.png" />
+    
+    
+
+    <author>
+      <name>Camila Pérez Schunk</name>
+    </author>
+    <dc:language>es</dc:language>
+
+    <title>Ciruelas</title>
+    <updated>2016-09-29T00:00:00-03:00</updated>
+    <dc:date>2016-09-29T00:00:00-03:00</dc:date>
+    <dcterms:date>2016-09-29T00:00:00-03:00</dcterms:date>
+    <dc:issued>2016-09-29</dc:issued>
+  </entry>
+  
+  <entry>
+    <id>//dentro_del_viento.html</id>
+    <link rel="http://opds-spec.org/acquisition"
+          type="application/epub+zip"
+          href="//dentro_del_viento.epub"/>
+    
+    <link rel="http://opds-spec.org/image"
+          type="image/png"
+          href="assets/covers/single_dentro_del_viento.png" />
+    <link rel="http://opds-spec.org/thumbnail"
+          type="image/png"
+          href="assets/covers/single_dentro_del_viento.png" />
+    
+    
+
+    <author>
+      <name>Camila Pérez Schunk</name>
+    </author>
+    <dc:language>es</dc:language>
+
+    <title>Dentro del Viento</title>
+    <updated>2016-09-05T00:00:00-03:00</updated>
+    <dc:date>2016-09-05T00:00:00-03:00</dc:date>
+    <dcterms:date>2016-09-05T00:00:00-03:00</dcterms:date>
+    <dc:issued>2016-09-05</dc:issued>
+  </entry>
+  
+</feed>
