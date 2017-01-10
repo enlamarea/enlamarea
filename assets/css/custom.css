@@ -1,6 +1,15 @@
 .container { max-width: 730px; }
 
-.page-header h1 { font-size: 50px; }
+section h1 {
+  font-size: 50px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 10px;
+}
+
+.page-header {
+  border-bottom: none;
+  padding-bottom: 0;
+}
 
 .page-header a:link,
 .page-header a:visited {

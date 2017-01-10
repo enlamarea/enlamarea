@@ -4,7 +4,11 @@ title: "Ciruelas"
 layout: post
 cover: "assets/covers/single_ciruelas.png"
 slider: "assets/covers/slider_ciruelas.png"
+category: "Cuentos en la Marea"
+signature:
 ---
+
+# Ciruelas
 
 > “Mi alma es tan cierta como el hueso de una ciruela.
 > No conozco los juegos del corazón. (...)

@@ -4,7 +4,11 @@ title: "Allí donde muere el sol"
 layout: post
 cover: "assets/covers/alli_donde_muere_el_sol.png"
 slider: "assets/covers/alli_donde_muere_el_sol.png"
+category: "Cuentos en la Marea"
+signature:
 ---
+
+# Allí donde muere el sol
 
 Solo, rodeado de máquinas ruidosas en un hospital cualquiera, supo que se estaba
 muriendo. No era sorpresa ya que fumaba excesivamente desde los quince años. Lo
@@ -154,7 +158,7 @@ un túmulo cercano para observar el ritual.
 
 Vest había sido un herrero reconocido y amado por su pueblo, así que varias de
 las mujeres acomodaban sus herramientas a su alrededor mientras el fuego iba
-consumiéndolo todo. Una de sus *thralls*[^1], cuya piel era blanca como la
+consumiéndolo todo. Una de sus *thralls*[^sol-1], cuya piel era blanca como la
 nieve, se ofreció a morir con él. No habló más de lo necesario y se entregó al
 sexo ritual con los hombres del clan para honrar al difunto como era costumbre
 en aquellos tiempos.
@@ -192,13 +196,13 @@ una mujer adulta a pesar de no tener más de ocho años—. Los escoceses estamo
 muy apegados a nuestras costumbres. Iar tuvo que enfrentar incontables tiempos
 de guerra y siempre fue un guía para todo el clan. Cuando los hombres estaban
 por partir hacia la batalla, cada uno tomaba una piedra pequeña y la dejaba en
-un lugar al costado del camino hasta formar un *cairn*[^2]. Al regresar, los que
+un lugar al costado del camino hasta formar un *cairn*[^sol-2]. Al regresar, los que
 volvían tomaban una piedra, así las que quedaban eran las de los caídos y se
 dejaban allí en memoria de ellos. Iar fue conocido por acarrear grandes rocas
 por largos caminos, incluso cuando volvía exhausto de la guerra, para erigir
 *cairns* para cada persona que había caído en la batalla, cerca de sus hogares y
 no en la salida del pueblo como era costumbre. Cada vez que regresaba, repetía
-la misma frase: *Cuiridh mi clach air do chàrn*[^3]. Todos lo adoraban. -La niña
+la misma frase: *Cuiridh mi clach air do chàrn*[^sol-3]. Todos lo adoraban. -La niña
 miró a lo lejos, adonde estaban parados Disantea y Occĭdens. Ellos dudaron si
 los estaba viendo o no. Sus cabellos rubios ondeaban en el agitado viento de la
 cima de aquella colina.
@@ -417,10 +421,10 @@ quien lo había acompañado y le pareció que era más un chacal que una persona
 pensó que tal vez cuando caminamos hacia el ocaso nuestro verdadero nombre no es
 tan importante.
 
-[^1]: Un esclavo o esclava en la cultura escandinava durante la Era Vikinga.
+[^sol-1]: Un esclavo o esclava en la cultura escandinava durante la Era Vikinga.
 
-[^2]: Es un túmulo, habitualmente con forma cónica. Se encuentra normalmente en
+[^sol-2]: Es un túmulo, habitualmente con forma cónica. Se encuentra normalmente en
 tierras altas, en páramos, en cumbres de montañas o cerca de cursos de agua.
 
-[^3]: En gaélico: “Pondré una piedra en tu *cairn*”. Esto se decía para recordar
+[^sol-3]: En gaélico: “Pondré una piedra en tu *cairn*”. Esto se decía para recordar
 y honrar a los muertos.

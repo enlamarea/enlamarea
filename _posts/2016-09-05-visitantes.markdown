@@ -4,7 +4,11 @@ title: "Visitantes"
 layout: post
 cover: "assets/covers/single_visitantes.png"
 slider: "assets/covers/slider_visitantes.png"
+category: "Cuentos en la Marea"
+signature:
 ---
+
+# Visitantes
 
 Abrió las ventanas una por una, mientras caminaba por su departamento.
 No demasiado; sólo lo suficiente para que entrara el viento calmo que
@@ -35,7 +39,7 @@ todas las letras, siguiendo los pasos que tantos antes que ella habían
 seguido. Rituales poderosos y ancestrales, los que realmente la
 conectaban con su esencia mágica.
 
-Cuando comenzó a investigar sobre la Wicca[^1] para un trabajo de la
+Cuando comenzó a investigar sobre la Wicca[^yule-1] para un trabajo de la
 facultad, sintió una conexión profunda con sus creencias y ceremonias.
 Las costumbres católicas de sus padres siempre le habían resultado
 lejanas y sin sentido. Los wiccanos, en cambio, festejaban el sol y la
@@ -46,9 +50,9 @@ descubrirlo.
 
 Abrió los ojos y fue a buscar las herramientas que necesitaba para el
 ritual de Yule. Mientras lo hacía, pensó en la importancia de este
-sabbat[^2] dentro de las festividades de la rueda anual: la naturaleza
+sabbat[^yule-2] dentro de las festividades de la rueda anual: la naturaleza
 dormía y, bajo la tierra, la vida esperaba el momento de volver.
-Yule[^3] representaba el renacimiento del dios luego de su muerte.
+Yule[^yule-3] representaba el renacimiento del dios luego de su muerte.
 Celebraba el comienzo del largo camino de regreso del sol, un tiempo
 todavía oscuro en el que observarse y descubrirse a uno mismo antes de
 renacer a un nuevo ciclo, a una vida nueva. Tiempo de celebración y
@@ -97,10 +101,10 @@ En la parte frontal del círculo, que estaba cerca de la ventana, colocó
 una estatua pequeña. En ella estaba representado un dios robusto con
 cabeza de elefante. Cuatro brazos salían de su torso, cada uno
 sosteniendo sus atributos característicos: un plato de dulces en ofrenda
-como recompensa de la búsqueda de sadhana[^4], una mano abierta y
+como recompensa de la búsqueda de sadhana[^yule-4], una mano abierta y
 expuesta hacia adelante mostrando una esvástica en señal de protección
 divina, el caracol que guarda el sagrado sonido del Om, la aguijada para
-quitar los obstáculos del camino del dharma[^5].
+quitar los obstáculos del camino del dharma[^yule-5].
 
 *Ganesh, que brillas como un millón de soles, ilumina mi camino,
 liberándolo siempre de obstáculos.*
@@ -110,7 +114,7 @@ abiertas como si estuviera emitiendo un rugido. Bajo sus pies había
 espirales nubosos que representaban el aire, el elemento que lo
 caracterizaba. Lo acomodó a la derecha.
 
-*Te invoco, Byakko*[^6]*, para que con tu luz blanca acompañes mis pasos
+*Te invoco, Byakko*[^yule-6]*, para que con tu luz blanca acompañes mis pasos
 y con tu rugir me ayudes a afrontar la tormenta que se aproxima.*
 
 Sacó de un frasco de vidrio lo que había recolectado en el parque a la
@@ -227,20 +231,20 @@ invierno que comenzaba.
 animales duermen. Nuestros sueños viajan por el mundo buscando un lugar
 para renacer.*
 
-[^1]: Religión neopagana, vinculada con la brujería y el politeísmo.
+[^yule-1]: Religión neopagana, vinculada con la brujería y el politeísmo.
 
-[^2]: Festividades de estación y semiestación que dependen de los ciclos
+[^yule-2]: Festividades de estación y semiestación que dependen de los ciclos
     solares y de la relación del sol y la Tierra.
 
-[^3]: Solsticio de invierno. Se celebra entre el 20 y 23 de diciembre en
+[^yule-3]: Solsticio de invierno. Se celebra entre el 20 y 23 de diciembre en
     el Hemisferio Norte y entre el 20 y 23 de junio en el Hemisferio
     Sur.
 
-[^4]: Término sánscrito que para el budismo, el hinduísmo y el sijismo
+[^yule-4]: Término sánscrito que para el budismo, el hinduísmo y el sijismo
     significa “práctica espiritual”.
 
-[^5]: Término sánscrito que significa “religión” o “ley religiosa”.
+[^yule-5]: Término sánscrito que significa “religión” o “ley religiosa”.
 
-[^6]: Término japonés que significa “tigre blanco”. Uno de los cuatro
+[^yule-6]: Término japonés que significa “tigre blanco”. Uno de los cuatro
     monstruos divinos que representan los puntos cardinales en la
     mitología japonesa.
