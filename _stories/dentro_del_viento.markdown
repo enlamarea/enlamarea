@@ -1,10 +1,12 @@
 ---
 author: Camila Pérez Schunk
 title: "Dentro del Viento"
+date: 2016-09-05
 layout: post
 cover: "assets/covers/single_dentro_del_viento.png"
 slider: "assets/covers/slider_dentro_del_viento.png"
 category: "Cuentos en la Marea"
+order: 5
 signature:
 ---
 

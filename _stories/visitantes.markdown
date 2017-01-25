@@ -1,10 +1,12 @@
 ---
 author: Camila Pérez Schunk
 title: "Visitantes"
+date: 2017-01-07
 layout: post
 cover: "assets/covers/single_visitantes.png"
 slider: "assets/covers/slider_visitantes.png"
 category: "Cuentos en la Marea"
+order: 3
 signature:
 ---
 

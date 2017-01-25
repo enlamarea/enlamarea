@@ -1,13 +1,16 @@
 ---
 layout: page
-title: En la Marea
+title: En la Marea - Cuentos
+group: navigation
+nav_text: "Cuentos"
+nav_order: 1
 ---
 
 <section id="textos">
+  
+{% assign sortedStories = site.stories %}
 
-  <h2>Textos publicados</h2>
-
-{% for post in site.posts %}
+{% for post in sortedStories %}
   <dl class="media">
     <dt class="inline title"><a href="{{ post.url }}">{{ post.title }}</a></dt>
     <dd class="inline"><small class="author">{{ post.author }}</small></dd>
@@ -24,16 +27,5 @@ title: En la Marea
 {% endfor %}
 
 
-{% if site.archives %}
-  <ul>
-    {% for archive in site.archives %}
-      <li>
-        <a href="{{ archive.url }}">
-          {{ archive.title }}
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-{% endif %}
 </section>
 

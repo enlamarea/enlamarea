@@ -1,10 +1,12 @@
 ---
 author: Camila Pérez Schunk
 title: "En la oscuridad del faro"
+date: 2016-09-30
 layout: post
 cover: "assets/covers/single_en_la_oscuridad_del_faro.png"
 slider: "assets/covers/slider_en_la_oscuridad_del_faro.png"
 category: "Cuentos en la Marea"
+order: 2
 signature:
 ---
 

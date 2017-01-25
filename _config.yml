@@ -8,7 +8,6 @@ lang: es
 
 markdown: pandoc
 pandoc:
-
     skip: false
     bundle_permalink: ':slug.:output_ext'
     papersize: 'a5paper'
@@ -48,3 +47,8 @@ lsi: false
 torrent:
   file: enlamarea.torrent
 
+collections:
+    stories:
+        output: true
+        permalink: ":title.html"
+        archive: true
