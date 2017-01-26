@@ -1,11 +1,13 @@
 ---
+title: Allí donde muere el sol
+date: 2016-09-03 00:00:00 Z
+categories:
+- Cuentos en la Marea
 author: Camila Pérez Schunk
-title: "Allí donde muere el sol"
 layout: post
-cover: "assets/covers/alli_donde_muere_el_sol.png"
-slider: "assets/covers/alli_donde_muere_el_sol.png"
-category: "Cuentos en la Marea"
-signature:
+cover: assets/covers/alli_donde_muere_el_sol.png
+slider: assets/covers/alli_donde_muere_el_sol.png
+signature: 
 ---
 
 # Allí donde muere el sol

@@ -1,11 +1,13 @@
 ---
+title: Visitantes
+date: 2016-09-05 00:00:00 Z
+categories:
+- Cuentos en la Marea
 author: Camila Pérez Schunk
-title: "Visitantes"
 layout: post
-cover: "assets/covers/single_visitantes.png"
-slider: "assets/covers/slider_visitantes.png"
-category: "Cuentos en la Marea"
-signature:
+cover: assets/covers/single_visitantes.png
+slider: assets/covers/slider_visitantes.png
+signature: 
 ---
 
 # Visitantes

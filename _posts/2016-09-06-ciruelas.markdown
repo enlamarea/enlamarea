@@ -1,11 +1,13 @@
 ---
+title: Ciruelas
+date: 2016-09-06 00:00:00 Z
+categories:
+- Cuentos en la Marea
 author: Camila Pérez Schunk
-title: "Ciruelas"
 layout: post
-cover: "assets/covers/single_ciruelas.png"
-slider: "assets/covers/slider_ciruelas.png"
-category: "Cuentos en la Marea"
-signature:
+cover: assets/covers/single_ciruelas.png
+slider: assets/covers/slider_ciruelas.png
+signature: 
 ---
 
 # Ciruelas
