@@ -13,7 +13,7 @@
    version="1.1"
    id="svg2"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="cc-by-nc-sa_icon.svg"
+   sodipodi:docname="la_copia_comparte_cultura.svg"
    inkscape:export-filename="/home/matt/Pictures/cc-by-nc-sa_icon.png"
    inkscape:export-xdpi="60"
    inkscape:export-ydpi="60">
@@ -53,7 +53,10 @@
      inkscape:current-layer="svg2" />
   <g
      id="surface1"
-     transform="translate(0,22)">
+     transform="translate(0,22)"
+     inkscape:export-filename="/home/matt/projects/enlamarea.net/assets/images/la_copia_comparte_cultura.png"
+     inkscape:export-xdpi="60"
+     inkscape:export-ydpi="60">
     <path
        style="fill:#a8b0ab;fill-opacity:1;fill-rule:nonzero;stroke:none"
        d="M 3.410156,0.453125 116.76172,0.652344 c 1.58594,0 3,-0.234375 3,3.164062 l -0.14063,37.328125 -119.074215,0 0,-37.46875 C 0.546875,2 0.710938,0.453125 3.410156,0.453125 z"
@@ -150,16 +153,4 @@
        id="path41"
        inkscape:connector-curvature="0" />
   </g>
-  <text
-     xml:space="preserve"
-     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-     x="2.2641501"
-     y="15.132075"
-     id="text3043"
-     sodipodi:linespacing="125%"><tspan
-       sodipodi:role="line"
-       id="tspan3045"
-       x="2.2641501"
-       y="15.132075"
-       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:League Gothic;-inkscape-font-specification:League Gothic">La copia comparte cultura</tspan></text>
 </svg>
